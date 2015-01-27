@@ -1,0 +1,12 @@
+---
+layout: post
+title: Markdown to HTML
+date: '2015-01-12T22:27:00.002+08:00'
+author: 居正中
+tags: 
+modified_time: '2015-01-12T22:27:37.261+08:00'
+blogger_id: tag:blogger.com,1999:blog-1068034375721560223.post-72005572832542407
+blogger_orig_url: http://blog.ccc99.tw/2015/01/blog-post.html
+---
+
+<div><h1 id="port">終止使用某Port的程式</h1><h2 id="processpid">查詢佔用的Process其PID為何</h2><pre><code>$ lsof -i:9090<br /><br />COMMAND   PID    USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME<br />java    29313 AlanJui  189u  IPv6 0xd5c365aad9209f05      0t0  TCP *:websm (LISTEN)<br /><br /></code></pre><br /><h2 id="pidprocess">以PID終止Process</h2><pre><code>$ sudo kill -9 29313<br /></code></pre><br /><h2 id="process">驗證Process己被終止</h2><pre><code>$ lsof -i:9090<br /><br />$<br /></code></pre></div>
