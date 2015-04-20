@@ -1,12 +1,27 @@
-# Site settings
 title: CCC生活札記
-email: alanjui.1960@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  凡走過，必留下足跡；有活著，總得留些札記。
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: AlanJui
-github_username:  AlanJui
+description: 凡走過必留下痕跡；既活著總得留點筆記
 
-# Build settings
-markdown: kramdown
+url: http://alanjui.github.io/
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: redcarpet
+highlighter: pygments
+paginate: 5
+
+navigation:
+ - title: 首頁
+   url: /index.html
+ - title: 關於我
+   url: /about.html
+ - title: 聯絡我
+   url: /contact.html
+
+social:
+   github: AlanJui
+   twitter: AlanJui
+   facebook: AlanJui
+   email: alanjui.1960@gmail.com
+
+google_analytics: "UA-58263416-1"
