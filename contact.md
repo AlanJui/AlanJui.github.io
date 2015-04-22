@@ -14,15 +14,21 @@ title: Contact Long Haul
     </p>
   </div>
 
-  <form action="http://formspree.io/alanjui.1960@gmail.com" method="POST">
+  <form action="//formspree.io/alanjui.1960@gmail.com" method="POST">
     <label for="name">姓名</label>
-    <input type="text" placeholder="Name" id="name" name="name" class="full-width"><br>
+    <input type="text" class="full-width"
+           id="name" name="name"
+           placeholder="Name"><br>
 
     <label for="email">電郵地址</label>
-    <input type="email" placeholder="Email Address" id="email" name="_replyto" class="full-width"><br>
+    <input type="email" class="full-width"
+           id="email" name="_replyto"
+           placeholder="Email Address"><br>
 
     <label for="message">訊息留言</label>
-    <textarea name="message" placeholder="Message" id="message" cols="30" rows="10" class="full-width"></textarea><br>
+    <textarea cols="30" rows="10" class="full-width"
+              id="message" name="message"
+              placeholder="Message"></textarea><br>
 
     <input type="submit" value="發送" class="button">
   </form>
