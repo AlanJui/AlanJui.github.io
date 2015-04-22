@@ -3,6 +3,8 @@ layout: post
 title:  "試用 Jekyll"
 date:   2015-01-27 11:30:27
 categories: Blog
+tag:
+- 知識
 ---
 ## 前言
 
@@ -16,10 +18,25 @@ categories: Blog
 
 撰寫以下這段 HTML:
 
-{% gist 79ff2a391f8943068b15 %}
+```
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+```
 
-
+<!-- <div style="width:50%;text-align:left">
+{% highlight HTML %}
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+{% endhighlight %}
+</div> -->
 只需這輸入以下幾個字，然後按個 <Tab> 鍵，即可搞定！　  ^^y
+
 
 ```
     ul>li*3

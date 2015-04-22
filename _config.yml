@@ -4,15 +4,23 @@ description: 凡走過必留下痕跡；既活著總得留點筆記
 url: http://alanjui.github.io/
 baseurl: ""
 paginate_path: "blog/page:num/"
-permalink: blog/:title/
+#permalink: blog/:categories/:year/:month/:day/:title/
+#permalink: pretty
+#permalink: blog/:categories/:year/:month/:day/:title.html
+permalink: date
 
 markdown: redcarpet
+#markdown: kramdown
 highlighter: pygments
 paginate: 10
 
 navigation:
  - title: 首頁
    url: /index.html
+ - title: 標籤
+   url: /tags.html
+ - title: 歸檔
+   url: /archived.html
  - title: 關於我
    url: /about.html
  - title: 聯絡我

@@ -3,6 +3,10 @@ layout: post
 title:  "Explore MEAN Stack at 2015 教學影片"
 date:   2015-04-20 09:00:00
 categories: Blog
+tag:
+- MEAN
+- 知識
+- 青菜公公
 ---
 早上，打開了家中的 SmartTV 在 YouTube 閒逛，想看看有沒有跟「MEAN Stack」相關的教學影片，可以觀賞學習。
 
