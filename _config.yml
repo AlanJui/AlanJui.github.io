@@ -1,5 +1,5 @@
-title: CCC生活札記
-description: 凡走過必留下痕跡；既活著總得留點筆記
+title: 放在 GitHub 的網路筆記
+description: 學而時習之，筆記莫棄之
 
 url: http://alanjui.github.io/
 baseurl: ""
@@ -32,4 +32,4 @@ social:
    facebook: AlanJui
    email: alanjui.1960@gmail.com
 
-google_analytics: "UA-62038067-1"
+google_analytics:
