@@ -1,0 +1,12 @@
+#!/bin/sh
+# Git Repo: git@github.com:AlanJui/AlanJui.github.io.git
+
+#rsync -azv --delete -e "ssh -i $HOME/.ssh/AlanJui.pem"  ./_site/ ec2-user@ec2-54-158-40-213.compute-1.amazonaws.com:/home/ec2-user/gh-pages
+
+rsync -azv --delete -e "ssh"  ./_site/ ec2-user@ec2-54-158-40-213.compute-1.amazonaws.com:/home/ec2-user/gh-pages
+
+#rsync -azv --delete /Users/AlanJui/workspace/jekyll/AlanJui-GitPages/_site/  git@github.com:AlanJui/AlanJui.github.io
+
+#rsync -azv --delete ./_site/  git@github.com:/AlanJui.github.io.git
+
+#rsync -e ssh -avz ./_site/ git@github.com:/AlanJui.github.io.git
