@@ -1,7 +1,8 @@
-title: 放在 GitHub 的網路筆記
-description: 學而時習之，筆記莫棄之
+title: 阿中的網路筆記本
+description: 學而時習之，筆記備忘知
 
-url: http://alanjui.github.io/
+url: http://jekyll.ccc99.tw/
+#url: http://alanjui.github.io/
 baseurl: ""
 paginate_path: "blog/page:num/"
 #permalink: blog/:categories/:year/:month/:day/:title/
@@ -17,14 +18,14 @@ paginate: 10
 navigation:
  - title: 首頁
    url: /index.html
- - title: 標籤
-   url: /tags.html
  - title: 歸檔
    url: /archived.html
  - title: 關於我
    url: /about.html
  - title: 聯絡我
    url: /contact.html
+ - title: 標籤
+   url: /tags
 
 social:
    github: AlanJui

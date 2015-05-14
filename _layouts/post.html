@@ -31,13 +31,6 @@ layout: default
       {% if forloop.last != true %}{% endif %}
     {% endfor %}
   </div>
-  <!-- Sharing -->
-  <div class="fb-like social-plugins"
-       data-href="http://alanjui.github.io{{ post.url }}"
-       data-layout="standard"
-       data-action="like"
-       data-share="true">
-  </div>
 
   <!-- POST NAVIGATION -->
   <div class="postNav clearfix">
@@ -62,26 +55,10 @@ layout: default
     {% endif %}
   </div>
 
-  <!-- 相關文章 -->
-  <!-- <div class="related">
-    <h2>相關文章</h2>
-    <ul class="related-posts">
-      {% for post in site.related_posts limit:3 %}
-        <li>
-          <h3>
-            <a href="{{ post.url }}">
-              {{ post.title }}
-              <small>{{ post.date | date_to_string }}</small>
-            </a>
-          </h3>
-        </li>
-      {% endfor %}
-    </ul>
-  </div> -->
-
   <!-- 讀者討論 -->
   <div class="comments">
-    {% include disqus.html disqus_identifier=page.disqus_identifier %}
+    <!-- {% include disqus.html disqus_identifier=page.disqus_identifier %} -->
+    {% include disqus.html %}
   </div>
 
 </div>
