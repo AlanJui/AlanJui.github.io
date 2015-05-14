@@ -1,7 +1,7 @@
 title: 阿中的網路筆記本
 description: 學而時習之，筆記備忘知
 
-url: http://jekyll.ccc99.tw/
+url: http://jekyll.ccc99.tw
 #url: http://alanjui.github.io/
 baseurl: ""
 paginate_path: "blog/page:num/"
@@ -20,12 +20,12 @@ navigation:
    url: /index.html
  - title: 歸檔
    url: /archived.html
+# - title: 標籤
+#   url: /tags
  - title: 關於我
    url: /about.html
  - title: 聯絡我
    url: /contact.html
- - title: 標籤
-   url: /tags
 
 social:
    github: AlanJui
